@@ -1,0 +1,8 @@
+{
+  "name": "Hello DevOps DevContainer",
+  "build": {
+    "dockerfile": "Dockerfile"
+  },
+  "forwardPorts": [8080],
+  "postCreateCommand": "npm install"
+}
